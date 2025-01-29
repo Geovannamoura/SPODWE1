@@ -1,0 +1,82 @@
+body {
+    background-color: #ede4db;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+header nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #000000;
+}
+
+#botao-contato {
+    padding: 10px 30px;
+    width: 150px;
+    text-align: center;
+    background-color: #524a4a;  
+    border: none;
+    color: #f9f9f9;  /* Cor do texto */
+    cursor: pointer;
+    border-radius: 30px;  /* Arredondar os cantos */
+    font-size: 16px;  /* Tamanho da fonte */
+}
+
+#botao-contato:hover {
+    background-color: #f9f9f9;  /* Cor de fundo quando passar o mouse */
+    color: #524a4a;
+}
+
+.apresentacao {
+    display: flex; /* Layout em colunas para imagem e texto */
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100vw;
+    height: 100vh;
+    padding: 0 10%;
+    box-sizing: border-box;
+}
+
+.apresentacao .texto {
+    flex: 1; /* Ocupa metade da largura */
+    display: flex;
+    flex-direction: column; /* Coloca <h1> e <p> na vertical */
+    justify-content: center; /* Centraliza verticalmente */
+}
+
+.apresentacao h1 {
+    font-size: 56px;
+    color: #524a4a;
+    margin: 0; /* Remove margens extras */
+    line-height: 1.5;
+}
+
+.apresentacao p {
+    font-size: 18px; /* Ajuste de tamanho */
+    color: #555; /* Cor mais suave */
+    margin: 10px 0 0 0; /* Espaçamento acima do parágrafo */
+}
+
+.apresentacao span {
+    color: #9d4f7f;
+}
